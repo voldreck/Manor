@@ -12,6 +12,7 @@ public class GameObject {
     protected String shortDescription; // name
     protected String longDescription;  // in depth description
 
+
     // Constructeur
     public GameObject (String id, String shortDescription, String longDescription) {
 
