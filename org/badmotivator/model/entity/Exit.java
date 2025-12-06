@@ -13,7 +13,8 @@ public class Exit {
      * @param destinationId - the ID of the next location (or null if impassable, for a generic response).
      * @param failureMessage - the specific message to give when movement fails (for specific, non-generic reasons)
      */
-
-
+    public Exit (String destinationId, String failureMessage) {
+        this.destinationId = destinationId;
+        this.failureMessage = failureMessage;
     }
 }
