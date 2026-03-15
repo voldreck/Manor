@@ -1,0 +1,24 @@
+game item base attributes:
+
+String uniqueID             // Unique identifier. i.e., "SILVER_FORK"
+String itemName             // Internal identifier, not unique.  i.e., "fork"
+String itemLongName         // Used in console output.  i.e., "silver fork"
+String itemCategory         // Type of item: "tool, utensil, food, weapon" etc.
+
+// Other attributes:
+
+String itemMaterial         // i.e., "metal, plastic, glass, wood, etc"
+String itemColor            // i.e., "red, black, white, shiny, dull"
+String itemSize             // vague size, such as "large, small, medium" etc.
+String itemGenShape         // general shape, "round, square, tall, long, short"
+String itemGenTemperature   // general "hot, cold, warm"
+int itemSpecTemperature     // Number in F or C, like '70' or '20'.
+
+
+For Compartment_J, lettuce use:
+
+String uniqueID             // Unique identifier. i.e., "SILVER_FORK"
+String itemName             // Internal identifier, not unique.  i.e., "fork"
+String itemLongName         // Used in console output.  i.e., "silver fork"
+String itemAttribute        // A consolidation of material and color "silver, rusty" etc.
+String itemCategory         // Type of item: "tool, utensil, food, weapon" etc.
